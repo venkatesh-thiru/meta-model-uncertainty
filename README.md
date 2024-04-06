@@ -20,4 +20,14 @@ The model takes the image and the predicted segmentation mask as input and outpu
 A deep mean-variance estimation network is applied for probabilistic extension of the meta-model which predicts a mean point estimate along with a confidence interval representing the predictive variance.
 ![alt-text-1](Images/meta.png "title-1") ![alt-text-2](Images/mve.png "title-2").
 
-### 
+### Usage
+* [notebooks/data_preprocess.ipynb](notebooks/data_preprocess.ipynb) contains code to preprocess the dataset.
+* [inference.ipynb](inference.ipynb) contains sample inference of the meta model
+* Checkpoint for deterministic model : [here](https://drive.google.com/file/d/1Vd319dAsE_m8qasap8bTBB3dmV0OSc-f/view?usp=sharing)
+* Checkpoint for MVE model : [here](https://drive.google.com/file/d/1PxuWkFfIV5GBArvrDPGYxvXXZ7i23erR/view?usp=drive_link)
+
+
+### Contact
+
+please reach out to us at : venkatesh.thirugnana@ovgu.de , or just raise an issue
+
