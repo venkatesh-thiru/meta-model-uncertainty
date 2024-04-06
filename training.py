@@ -1,5 +1,5 @@
 import os
-os.environ["CUDA_VISIBLE_DEVICES"]=""
+
 
 import torch
 import torch.optim as optim
